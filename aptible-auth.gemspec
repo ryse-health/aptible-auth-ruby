@@ -23,7 +23,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'aptible-resource', '~> 1.0'
   spec.add_dependency 'gem_config'
   spec.add_dependency 'multipart-post', '2.1.1'
-  spec.add_dependency 'oauth2', '2.0.9'
+  spec.add_dependency 'oauth2', '>= 2.0.22', '< 3'
+
 
   spec.add_development_dependency 'aptible-tasks', '>= 0.6.0'
   spec.add_development_dependency 'httplog'
